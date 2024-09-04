@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+nav,
+.nav-links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+}
+
+#desktop-nav {
+  border-bottom: rgb(29, 71, 55) solid 2px;
+}
+
+.nav-links {
+  gap: 2.9rem;
+  list-style: none;
+  font-size: 1rem;
+}
+
+a {
+  color: rgb(29, 71, 55);
+  text-decoration: none;
+  text-decoration-color: white;
+  font-weight: bold;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgb(29, 71, 55);
+}
+
+.logo:hover {
+  cursor: default;
+}
+
+
+.body-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.card1 {
+  display: block;
+  text-align: center;
+}
+.name {
+  font-size: 3rem;
+  padding-bottom: 5px;
+  color: rgb(7, 56, 37);
+}
+.description {
+  font-size: 0.9rem;
+  padding-bottom: 20px;
+}
+
+.contact-btn {
+  font-size: 1.2rem;
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background: rgb(29, 71, 55);
+}
+
+.card2 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-right: -50px;
+}
+
+.pic {
+  width: 280px;
+  object-fit: cover;
+  border-radius: 10px;
+  
+
+}
+.pic2 {
+  position: absolute;
+  z-index: -1;
+  height: 410px;
+  width: 300px;
+  left: 120px;
+  top: -20px;
+}
